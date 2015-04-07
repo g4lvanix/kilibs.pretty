@@ -1,6 +1,6 @@
-(module ALM-2712 (layer F.Cu) (tedit 5523C837)
+(module ALM-2712 (layer F.Cu) (tedit 5523EA35)
   (clearance 0.1)
-  (fp_text reference U* (at 0 -2.4) (layer F.SilkS) hide
+  (fp_text reference U* (at 0 -2.4) (layer F.SilkS)
     (effects (font (thickness 0.3)))
   )
   (fp_text value VAL** (at 0 2.7) (layer F.SilkS) hide
