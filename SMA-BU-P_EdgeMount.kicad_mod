@@ -1,0 +1,13 @@
+(module SMA-BU-P_EdgeMount (layer F.Cu) (tedit 5523BC8B)
+  (fp_text reference REF** (at 9.425 -17.1) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value SMA-BU-P_EdgeMount (at 9.425 -18.6) (layer F.Fab) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_line (start 0 -1.85) (end -3.225 -1.85) (layer F.SilkS) (width 0.15))
+  (fp_line (start 0 -1.85) (end 3.225 -1.85) (layer F.SilkS) (width 0.15))
+  (pad 2 smd rect (at -2.6 0) (size 1.75 2.9) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.6 0) (size 1.75 2.9) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 0) (size 1.5 2.9) (layers F.Cu F.Paste F.Mask))
+)
