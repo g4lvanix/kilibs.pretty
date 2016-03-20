@@ -1,4 +1,6 @@
 (module LQFP-48-7x7 (layer F.Cu) (tedit 55FAFF4B)
+  (solder_mask_margin 0.025)
+  (clearance 0.025)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
@@ -61,4 +63,9 @@
   (pad 46 smd oval (at -4.25 1.75) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 47 smd oval (at -4.25 2.25) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
   (pad 48 smd oval (at -4.25 2.75) (size 1.2 0.3) (layers F.Cu F.Paste F.Mask))
+  (model Housings_QFP.3dshapes/LQFP-48_7x7mm_Pitch0.5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
